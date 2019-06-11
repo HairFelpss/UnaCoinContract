@@ -6,7 +6,6 @@ const mneumonic = 'staff cube regular aisle nation tiny response tobacco satisfy
 const provider = new HDWalletProvider(
     mneumonic,
     'rinkeby.infura.io/7c761a7016e3428f8872ed02fc5b3014'
-
 );
 
 const web3 = new Web3(provider);
